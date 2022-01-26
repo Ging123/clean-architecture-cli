@@ -4,7 +4,6 @@
 const turnFirstLetterUpperCase = require('../util/turnFirstLetterUpperCase');
 const readline  = require('readline');
 const shell = require("shelljs");
-const { exec } = require("child_process");
 var repoName = '';
 var repoNameForClass = '';
 var modelFile = '';

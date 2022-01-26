@@ -6,7 +6,9 @@
   "bin": {
     "init": "bin/createSrc.js",
     "create-model": "bin/createModel.js",
-    "create-repo": "bin/createRepo.js"
+    "create-repo": "bin/createRepo.js",
+    "create-useCase": "bin/createUseCase.js",
+    "add-useCase":"bin/addUseCase.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
