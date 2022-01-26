@@ -1,19 +1,20 @@
 # Clean Architecture Cli
 
-## Topics
-
 ## How to Use
 
 For use this package you need first install it on your api using this command:
 ```
 npm i clean-architecture-cli-ging -d
 ```
-After that, you must add at your **package.json**, **cac-init** as a script that will  create your clean folder. I'm using **init** as script name for my **cac-init** command.
+After do this copy the script bellow and past on your package.json script
 ```
-...
 {
   "scripts": {
-    "init":"cac-init"
+    "init":"init",
+    "create-model": "create-model",
+    "create-repo": "create-repo",
+    "create-useCase": "create-useCase",
+    "add-useCase":"add-useCase"
   }
 }
 ```
