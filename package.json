@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "cac-init": "bin/createSrc.js"
+    "cac-init": "bin/createSrc.js",
+    "cac-create-model":"bin/createModel.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
