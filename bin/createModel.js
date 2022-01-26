@@ -13,6 +13,7 @@ const rl = readline.createInterface({
 });
 
 rl.question('Your model name: ', (name) => {
+  if(!name) return rl.close();
   setModelName(name);
   enterInModelFolder();
   createModelFile();
